@@ -8,6 +8,8 @@ import linkedin from "../assets/blog linkedin.svg";
 import twitter from "../assets/blog twitter.svg";
 import tip from "../assets/loan41.png";
 import adj from "../assets/loan5.png";
+import { Icon } from "@iconify/react";
+
 
 function SecureloanContent() {
   return (
@@ -201,7 +203,7 @@ function SecureloanContent() {
                   </div>
                   <div className="col-md-6 text-end ">
                     <div className="">
-                      <button className="btn next-blog"> Copy Link</button>{" "}
+                      <button className="btn next-blog">  <Icon icon="bx:link" className="mx-1" /> Copy Link</button>{" "}
                       <a href="https://www.facebook.com">
                         <img src={facebook} alt="facebook" className="" />
                       </a>{" "}

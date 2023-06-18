@@ -1,7 +1,6 @@
 import React from 'react'
 import Header from "../components/navBar";
 import CustomapplicationContent from '../components/customapplicationContent';
-import Termscondcontent from '../components/termscondcontent';
 import NoTop from "../components/footerwithoutTop";
 
 function CustomGuides() {
@@ -10,8 +9,7 @@ function CustomGuides() {
     <div> 
     <Header />
     <CustomapplicationContent />
-    <Termscondcontent />
-    <NoTop />
+     <NoTop />
   </div>
   );
 }

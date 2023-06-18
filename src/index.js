@@ -24,6 +24,7 @@ import BookeepingBlog from "./pages/bookeepingBlog";
 import MaximiseGuides from "./pages/maximiseGuides";
 import CustomGuides from "./pages/customGuides";
 import Blogs from "./pages/blogs";
+import PrivacyPolicy from "./pages/privacyPolicy";
 import PayplatformBlog from "./pages/payplatformBlog";
 import Lending from "./pages/lending";
 import ScrollToTop from "./scrollToTop";
@@ -36,6 +37,7 @@ import Education from "./pages/education";
 import Food from "./pages/food";
 import HR from "./pages/hr";
 import TermsCondition from "./pages/termsCondition";
+import Termsofuse from "./pages/termsofuse";
 import Guides from "./pages/guides";
 import SecureloanGuides from "./pages/secureloanGuides";
 
@@ -75,16 +77,18 @@ root.render(
         <Route path="/education" element={<Education />}></Route>
         <Route path="/food" element={<Food />}></Route>
         <Route path="/human-resources" element={<HR />}></Route>
-        <Route path="/blogfinancecontent" element={<FinanceBlog />}></Route>
-        <Route path="/payplatformcontent" element={<PayplatformBlog />}></Route>
-        <Route path="/blogcryptocontent" element={<CryptoBlog />}></Route>
-        <Route path="/bookeepingcontent" element={<BookeepingBlog />}></Route>
-        <Route path="/blogcontent" element={<Blogs />}></Route>
-        <Route path="/customapplicationcontent" element={<CustomGuides />}></Route>
-        <Route path="/maximiseproductcontent" element={<MaximiseGuides />}></Route>
-        <Route path="/secureloancontent" element={<SecureloanGuides />}></Route>
-        <Route path="/guidescontent" element={<Guides />}></Route>
-        <Route path="/termscondcontent" element={<TermsCondition />}></Route>
+        <Route path="/blog/finance" element={<FinanceBlog />}></Route>
+        <Route path="/blog/paymentplatform" element={<PayplatformBlog />}></Route>
+        <Route path="/blog/crypto" element={<CryptoBlog />}></Route>
+        <Route path="/blog/bookeeping" element={<BookeepingBlog />}></Route>
+        <Route path="/blog" element={<Blogs />}></Route>
+        <Route path="/guides/customapplication" element={<CustomGuides />}></Route>
+        <Route path="/guides/maximiseproduct" element={<MaximiseGuides />}></Route>
+        <Route path="/guides/secureloan" element={<SecureloanGuides />}></Route>
+        <Route path="/guides" element={<Guides />}></Route>
+        <Route path="/terms&conditions" element={<TermsCondition />}></Route>
+        <Route path="/termsofuse" element={<Termsofuse />}></Route>
+        <Route path="/privacypolicy" element={<PrivacyPolicy />}></Route>
         {/* <Route path="/bookeepingcontent" element={<BlogContent />}></Route> */}
         {/* <Route path="/payplatformcontent" element={<BlogContent />}></Route> */}
         {/* <Route path="/blogfinancecontent" element={<BlogContent />}></Route> */}

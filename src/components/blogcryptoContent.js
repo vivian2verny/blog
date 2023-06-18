@@ -8,6 +8,7 @@ import twitter from "../assets/blog twitter.svg";
 import group from "../assets/becoin.png";
 import wah from "../assets/cry-text.svg";
 import fond from "../assets/becoin2.png";
+import { Icon } from "@iconify/react";
 import { Link } from "react-router-dom";
 
 function BlogcryptoContent() {
@@ -286,7 +287,7 @@ function BlogcryptoContent() {
                     </div>
                     <div className="col-md-6 text-end ">
                       <div className="">
-                        <button className="btn next-blog"> Copy Link</button>{" "}
+                        <button className="btn next-blog"> <Icon icon="bx:link" className="mx-1" /> Copy Link</button>{" "}
                         <a href="https://www.facebook.com">
                           <img src={facebook} alt="facebook" className="" />
                         </a>{" "}

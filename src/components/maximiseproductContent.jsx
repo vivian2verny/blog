@@ -1,12 +1,14 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import pic from "../assets/finpic.svg";
-import nim  from "../assets/5 Steps to.png"
+import nim  from "../assets/max.png"
 import wot from "../assets/Get More  (1).svg";
 import facebook from "../assets/blogfacebook.svg";
 import linkedin from "../assets/blog linkedin.svg";
 import twitter from "../assets/blog twitter.svg";
 import secd from "../assets/prd2.png";
 import mon from "../assets/prd1.png";
+import { Icon } from "@iconify/react";
 
 
 function MaximiseproductContent() {
@@ -39,6 +41,7 @@ function MaximiseproductContent() {
             <div className="row justify-content-center">
               <div className="col-md-12">
                 <div className="text-center my-3">
+                 
                 <img src={secd} alt="" className="img-fluid  w-100" />
                   
                 </div>
@@ -219,7 +222,7 @@ function MaximiseproductContent() {
                     </div>
                     <div className="col-md-6 text-end ">
                       <div className="">
-                        <button className="btn next-blog"> Copy Link</button>{" "}
+                        <button className="btn next-blog"> <Icon icon="bx:link" className="mx-1" /> Copy Link</button>{" "}
                         <a href="https://www.facebook.com">
                           <img src={facebook} alt="facebook" className="" />
                         </a>{" "}

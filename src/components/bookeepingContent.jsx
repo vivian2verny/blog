@@ -8,6 +8,7 @@ import txt from "../assets/Get More  (1).svg";
 import facebook from "../assets/blogfacebook.svg";
 import linkedin from "../assets/blog linkedin.svg";
 import twitter from "../assets/blog twitter.svg";
+import { Icon } from "@iconify/react";
 
 function BookeepingContent() {
   return (
@@ -287,7 +288,7 @@ function BookeepingContent() {
                     </div>
                     <div className="col-md-6 text-end ">
                       <div className="">
-                        <button className=" nxt-blog mx-2"> Copy Link</button>{" "}
+                        <button className=" nxt-blog mx-2">  <Icon icon="bx:link" className="mx-1" />  Copy Link</button>{" "}
                         <a href="https://www.facebook.com">
                           <img src={facebook} alt="facebook" className="" />
                         </a>{" "}

@@ -11,6 +11,7 @@ import ten from "../assets/AI.png";
 import two from "../assets/screren.png";
 import arry from "../assets/ATM.png";
 import fin from "../assets/FINTECH.png";
+import { Icon } from "@iconify/react";
 
 function BlogContent() {
   return (
@@ -82,7 +83,7 @@ function BlogContent() {
                         <span className="mx-3"> 2 hours ago</span>{" "}
                       </span>{" "}
                     </p>
-                    <Link to="/bookeepingcontent">
+                    <Link to="/blog/bookeeping">
                       <h3 className="my-3">
                         4 reasons why your business needs a Bookeeping
                         applications
@@ -119,7 +120,7 @@ function BlogContent() {
                       </span>{" "}
                     </p>
 
-                    <Link to="/payplatformcontent">
+                    <Link to="/blog/paymentplatform">
                       <h3 className="my-3">
                         {" "}
                         Benefits and Challenges of using payment platforms
@@ -155,7 +156,7 @@ function BlogContent() {
                         <span className="mx-3"> 2 hours ago</span>{" "}
                       </span>{" "}
                     </p>
-                    <Link to="/blogcryptocontent">
+                    <Link to="/blog/crypto">
                       <h3 className="my-3">Is Crypto the Future of Finance </h3>
                     </Link>
                     <div className="">
@@ -190,7 +191,7 @@ function BlogContent() {
                         <span className="mx-3"> 2 hours ago</span>{" "}
                       </span>{" "}
                     </p>
-                    <Link to="/blogfinancecontent">
+                    <Link to="/blog/finance">
                       <h3 className="my-3">
                         Impact of mobile banking on commerce in Africa
                       </h3>
@@ -384,7 +385,7 @@ function BlogContent() {
 
             <div className=" d-flex flex-row  justify-content-between my-5 ">
               {/* <div className="col-md-9"> */}
-              <div className=""> Previous </div>
+              <div className="">  <Icon icon="ic:baseline-arrow-back" /> Previous </div>
               <div className="">
                 <ul class="pagination ">
                   <button class="btn-item mx-1">
@@ -401,7 +402,7 @@ function BlogContent() {
                 </ul>
               </div>
 
-              <div className=""> Left </div>
+              <div className=""> Next  <Icon icon="teenyicons:arrow-right-solid" /> </div>
               {/* </div> */}
             </div>
           </div>

@@ -9,6 +9,7 @@ import facebook from "../assets/blogfacebook.svg";
 import instagram from "../assets/instagram.svg";
 import linkedin from "../assets/blog linkedin.svg";
 import twitter from "../assets/blog twitter.svg";
+import { Icon } from "@iconify/react";
 
 import { Link } from "react-router-dom";
 
@@ -229,7 +230,7 @@ function BlogfinanceContent() {
                     </div>
                     <div className="col-md-6 text-end ">
                       <div className="">
-                        <button className="btn next-blog"> Copy Link</button>{" "}
+                        <button className="btn next-blog"> <Icon icon="bx:link" className="mx-1" /> Copy Link</button>{" "}
                         <a href="https://www.facebook.com">
                           <img src={facebook} alt="facebook" className="" />
                         </a>{" "}

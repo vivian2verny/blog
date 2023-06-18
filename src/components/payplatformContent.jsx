@@ -1,11 +1,12 @@
 import React from "react";
 import pic from "../assets/finpic.svg";
 import woh from "../assets/plat.svg";
-import chart from "../assets/blogchart.svg";
+import lid from "../assets/paidplat.png";
 import txt from "../assets/Get More  (1).svg";
 import facebook from "../assets/blogfacebook.svg";
 import linkedin from "../assets/blog linkedin.svg";
 import twitter from "../assets/blog twitter.svg";
+import { Icon } from "@iconify/react";
 
 function PayplatformContent() {
   return (
@@ -43,7 +44,7 @@ function PayplatformContent() {
             <div className="row justify-content-center">
               <div className="col-md-12">
                 <div className="text-center my-3">
-                  {/* <img src={man} alt="" className="img-fluid w-100" /> */}
+                  <img src={lid} alt="" className="img-fluid w-100" />
                 </div>
               </div>
             </div>
@@ -248,7 +249,7 @@ function PayplatformContent() {
                     </div>
                     <div className="col-md-6 text-end ">
                       <div className="">
-                        <button className="btn next-blog"> Copy Link</button>{" "}
+                        <button className="btn next-blog"> <Icon icon="bx:link" className="mx-1" /> Copy Link</button>{" "}
                         <a href="https://www.facebook.com">
                           <img src={facebook} alt="facebook" className="" />
                         </a>{" "}

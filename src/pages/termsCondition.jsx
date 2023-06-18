@@ -1,16 +1,16 @@
-import React from 'react'
+import React from "react";
 import Header from "../components/navBar";
-import Termscondcontent from '../components/termscondcontent';
-
+import TermsBreadcrumb from "../components/termsBreadcrumb";
+import Termscondcontent from "../components/termscondcontent";
+import Footer from "../components/footer";
 
 function TermsCondition() {
   return (
-    <div className="bg-white">
-
-        <Header />
-        <Termscondcontent />
-
-
+    <div>
+      <Header />
+      <TermsBreadcrumb />
+      <Termscondcontent />
+      <Footer />
     </div>
   );
 }

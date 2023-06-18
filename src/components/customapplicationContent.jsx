@@ -6,6 +6,7 @@ import facebook from "../assets/blogfacebook.svg";
 import linkedin from "../assets/blog linkedin.svg";
 import twitter from "../assets/blog twitter.svg";
 import coll from "../assets/Stepsto.png";
+import { Icon } from "@iconify/react";
 
 function CustomapplicationContent() {
   return (
@@ -13,13 +14,14 @@ function CustomapplicationContent() {
       <div className="container">
         <div className="row mt-5">
           <div className="col-md-12">
-            <div className="row">
+            <div className="row justify-content-center">
               <div className="col-md-9 ">
                 <div className="text-center mt-5 mb-4">
                   <p className="mb-3 mt-5 "> Guides </p>
+                 
                   <img src={coll} alt="" className="img-fluid w-75 rounded" />
                   <p className="mt-3"> </p>
-                  <div className="d-flex align-items-center justify-content-center my-4">
+                  <div className="d-flex align-items-start justify-content-center my-4">
                     {" "}
                     <img src={pic} alt="" className="img-fluid mx-2" />{" "}
                     <p>
@@ -237,7 +239,7 @@ function CustomapplicationContent() {
                     </div>
                     <div className="col-md-6 text-end ">
                       <div className="">
-                        <button className="btn next-blog"> Copy Link</button>{" "}
+                        <button className="btn next-blog"> <Icon icon="bx:link" className="mx-1" /> Copy Link</button>{" "}
                         <a href="https://www.facebook.com">
                           <img src={facebook} alt="facebook" className="" />
                         </a>{" "}
