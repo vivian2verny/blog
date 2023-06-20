@@ -40,6 +40,11 @@ import TermsCondition from "./pages/termsCondition";
 import Termsofuse from "./pages/termsofuse";
 import Guides from "./pages/guides";
 import SecureloanGuides from "./pages/secureloanGuides";
+import BuildbetterGuides from "./pages/buildbetterGuides";
+import FinancialfreedomGuides from "./pages/FinancialfreedomGuides";
+import PomeloGuides from "./pages/pomeloGuides";
+import StackproductGuides from "./pages/stackproductGuides";
+import StacksolutionGuides from "./pages/stacksolutionGuides";
 
 
 
@@ -89,6 +94,12 @@ root.render(
         <Route path="/terms&conditions" element={<TermsCondition />}></Route>
         <Route path="/termsofuse" element={<Termsofuse />}></Route>
         <Route path="/privacypolicy" element={<PrivacyPolicy />}></Route>
+        <Route path="/guides/buildbetter" element={<BuildbetterGuides />}></Route>
+        <Route path="/guides/financialfreedom" element={<FinancialfreedomGuides />}></Route>
+        <Route path="/guides/implementpomelo" element={<PomeloGuides />}></Route>
+        <Route path="/guides/stack-ivyproducts" element={<StackproductGuides />}></Route>
+        <Route path="/guides/productsandsolutions" element={<StacksolutionGuides />}></Route>
+
         {/* <Route path="/bookeepingcontent" element={<BlogContent />}></Route> */}
         {/* <Route path="/payplatformcontent" element={<BlogContent />}></Route> */}
         {/* <Route path="/blogfinancecontent" element={<BlogContent />}></Route> */}

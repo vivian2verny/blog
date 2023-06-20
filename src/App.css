@@ -2377,6 +2377,21 @@ p {
   line-height: 22px;
   color: #1e2c31;
 }
+.finance-content a{
+  font-family: mona-light;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  background: linear-gradient(
+    89.82deg,
+    #0c6b8a 5.42%,
+    #ffcc00 94.7%
+  ) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
 .finance-content h3 {
   font-family: mag;
   font-weight: 400;
